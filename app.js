@@ -4,7 +4,7 @@ const express = require('express')
 const dbConnect = require('./db')
 const cors = require('cors')
 const productRouter = require('./routes/product')
-
+//TRATANDO
 const app = express()
 
 dbConnect(app)
